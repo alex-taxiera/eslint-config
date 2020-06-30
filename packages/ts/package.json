@@ -1,6 +1,6 @@
 {
   "name": "@alex-taxiera/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom ESLint config for TypeScript",
   "main": "index.js",
   "keywords": [
@@ -14,7 +14,7 @@
   "author": "Alex Taxiera",
   "license": "ISC",
   "dependencies": {
-    "@alex-taxiera/eslint-config-esm": "^1.0.0"
+    "@alex-taxiera/eslint-config-esm": "^1.0.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.5.0",
