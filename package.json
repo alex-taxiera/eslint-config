@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "uninstall": "lerna clean --yes && rm -rf ./node_modules",
+    "reinstall": "npm run uninstall && npm i",
+    "postinstall": "npm run bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-taxiera/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-taxiera/eslint-config/issues"
+  },
+  "homepage": "https://github.com/alex-taxiera/eslint-config#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
