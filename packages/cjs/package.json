@@ -13,9 +13,11 @@
   },
   "author": "Alex Taxiera",
   "license": "ISC",
+  "dependencies": {
+    "eslint-config-standard": "^14.1.1"
+  },
   "devDependencies": {
     "eslint": "^7.3.1",
-    "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
@@ -23,7 +25,6 @@
   },
   "peerDependencies": {
     "eslint": "^7.3.1",
-    "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",

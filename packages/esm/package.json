@@ -13,10 +13,11 @@
   },
   "author": "Alex Taxiera",
   "license": "ISC",
+  "dependencies": {
+    "@alex-taxiera/eslint-config-cjs": "^1.0.0"
+  },
   "devDependencies": {
-    "@alex-taxiera/eslint-config-cjs": "^1.0.0",
     "eslint": "^7.3.1",
-    "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-modules-newline": "0.0.4",
     "eslint-plugin-node": "^11.1.0",
@@ -24,9 +25,7 @@
     "eslint-plugin-standard": "^4.0.1"
   },
   "peerDependencies": {
-    "@alex-taxiera/eslint-config-cjs": "^1.0.0",
     "eslint": "^7.3.1",
-    "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-modules-newline": "0.0.4",
     "eslint-plugin-node": "^11.1.0",
