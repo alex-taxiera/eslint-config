@@ -1,9 +1,9 @@
 module.exports = {
   extends: [
+    '@alex-taxiera/eslint-config-esm',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    '@alex-taxiera/eslint-config-esm',
   ],
   plugins: [
     'modules-newline',
