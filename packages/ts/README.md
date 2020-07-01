@@ -13,7 +13,7 @@ npm i -D @alex-taxiera/eslint-config-ts
 ```
 # Add to .eslintrc
 ```
-extends: [
-  '@alex-taxiera/eslint-config-ts'
-]
+extends: '@alex-taxiera/eslint-config-ts'
+parserOptions:
+  project: './tsconfig.json'
 ```
