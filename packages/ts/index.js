@@ -11,6 +11,8 @@ module.exports = {
   rules: {
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
+    indent: 'off',
+    '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/no-empty-interface': ['error', {
       allowSingleExtends: true,
     }],
