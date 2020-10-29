@@ -13,6 +13,8 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor': 'error',
     indent: 'off',
     '@typescript-eslint/indent': ['error', 2],
+    semi: 'off',
+    '@typescript-eslint/semi': ['error'],
     '@typescript-eslint/no-empty-interface': ['error', {
       allowSingleExtends: true,
     }],
@@ -26,6 +28,7 @@ module.exports = {
         delimiter: 'none',
       },
     }],
+    '@typescript-eslint/restrict-plus-operands': ['error', {checkCompoundAssignments: true}],
     '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/explicit-member-accessibility': ['error', {
       overrides: {

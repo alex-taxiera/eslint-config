@@ -1,18 +1,26 @@
 {
   "name": "@alex-taxiera/eslint-config-ts",
   "version": "1.0.4",
-  "description": "Custom ESLint config for TypeScript",
   "main": "index.js",
+  "description": "Custom ESLint config for TypeScript",
   "keywords": [
     "eslint",
     "eslintconfig",
     "ts"
   ],
+  "author": "Alex Taxiera",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-taxiera/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alex-taxiera/eslint-config/issues"
+  },
+  "homepage": "https://github.com/alex-taxiera/eslint-config#readme",
   "publishConfig": {
     "access": "public"
   },
-  "author": "Alex Taxiera",
-  "license": "ISC",
   "dependencies": {
     "@alex-taxiera/eslint-config-esm": "^1.0.2"
   },
