@@ -9,6 +9,14 @@ module.exports = {
     'modules-newline',
   ],
   rules: {
+    'brace-style': 'off',
+    '@typescript-eslint/brace-style': ['error', '1tbs', {
+      allowSingleLine: true,
+    }],
+    'quotes': 'off',
+    '@typescript-eslint/quotes': ['error', 'single'],
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'error',
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
     indent: 'off',
