@@ -1,6 +1,6 @@
 {
   "name": "@alex-taxiera/eslint-config-ts",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "index.js",
   "description": "Custom ESLint config for TypeScript",
   "keywords": [
