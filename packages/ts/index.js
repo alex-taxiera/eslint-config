@@ -14,7 +14,7 @@ module.exports = {
     indent: 'off',
     '@typescript-eslint/indent': ['error', 2],
     semi: 'off',
-    '@typescript-eslint/semi': ['never'],
+    '@typescript-eslint/semi': ['error', 'never'],
     '@typescript-eslint/no-empty-interface': ['error', {
       allowSingleExtends: true,
     }],
