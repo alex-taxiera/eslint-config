@@ -43,5 +43,8 @@ module.exports = {
         constructors: 'no-public',
       },
     }],
+    '@typescript-eslint/no-misused-promises': ['error', {
+      checksVoidReturn: false
+    }],
   },
 }
