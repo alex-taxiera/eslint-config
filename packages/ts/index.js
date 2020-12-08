@@ -23,6 +23,7 @@ module.exports = {
     '@typescript-eslint/indent': ['error', 2],
     semi: 'off',
     '@typescript-eslint/semi': ['error', 'never'],
+    '@typescript-eslint/prefer-optional-chain': ['error'],
     '@typescript-eslint/no-empty-interface': ['error', {
       allowSingleExtends: true,
     }],
