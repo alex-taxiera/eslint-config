@@ -34,9 +34,10 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "typescript": "^3.9.5"
+    "typescript": "^4.1.3"
   },
   "peerDependencies": {
+    "typescript": "^4.x",
     "@typescript-eslint/eslint-plugin": "^3.5.0",
     "@typescript-eslint/parser": "^3.5.0",
     "eslint": "^7.3.1",
@@ -44,7 +45,6 @@
     "eslint-plugin-modules-newline": "0.0.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "typescript": "^3.9.5"
+    "eslint-plugin-standard": "^4.0.1"
   }
 }
