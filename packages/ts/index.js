@@ -9,6 +9,16 @@ module.exports = {
     'modules-newline',
   ],
   rules: {
+    'object-curly-spacing': 'off',
+    '@typescript-eslint/object-curly-spacing': ['error', 'always'],
+    'comma-dangle': 'off',
+    '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
+    'lines-between-class-members': 'off',
+    '@typescript-eslint/lines-between-class-members': ['error', 'always', {
+      exceptAfterOverload: true,
+    }],
     'brace-style': 'off',
     '@typescript-eslint/brace-style': ['error', '1tbs', {
       allowSingleLine: true,
@@ -37,7 +47,9 @@ module.exports = {
         delimiter: 'none',
       },
     }],
-    '@typescript-eslint/restrict-plus-operands': ['error', {checkCompoundAssignments: true}],
+    '@typescript-eslint/restrict-plus-operands': ['error', {
+      checkCompoundAssignments: true,
+    }],
     '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/explicit-member-accessibility': ['error', {
       overrides: {
