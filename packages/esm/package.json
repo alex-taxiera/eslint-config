@@ -1,6 +1,6 @@
 {
   "name": "@alex-taxiera/eslint-config-esm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "description": "Custom ESLint config for ESM",
   "keywords": [
