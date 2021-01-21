@@ -22,22 +22,22 @@
     "access": "public"
   },
   "dependencies": {
-    "@alex-taxiera/eslint-config-cjs": "^1.0.3"
+    "@alex-taxiera/eslint-config-cjs": "^1.0.4"
   },
   "devDependencies": {
-    "eslint": "^7.3.1",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-modules-newline": "0.0.4",
+    "eslint": "^7.18.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-modules-newline": "0.0.6",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^5.0.0"
   },
   "peerDependencies": {
-    "eslint": "^7.3.1",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-modules-newline": "0.0.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint": ">=7.18.0",
+    "eslint-plugin-import": ">=2.22.1",
+    "eslint-plugin-modules-newline": ">=0.0.6",
+    "eslint-plugin-node": ">=11.1.0",
+    "eslint-plugin-promise": ">=4.2.1",
+    "eslint-plugin-standard": ">=5.0.0"
   }
 }
