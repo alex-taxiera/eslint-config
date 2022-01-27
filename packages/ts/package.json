@@ -1,6 +1,6 @@
 {
   "name": "@alex-taxiera/eslint-config-ts",
-  "version": "1.3.3-alpha.1+11bc6c4",
+  "version": "1.3.3-alpha.1+05d03fe",
   "main": "index.js",
   "description": "Custom ESLint config for TypeScript",
   "keywords": [
@@ -46,5 +46,5 @@
     "eslint-plugin-promise": "^5.2.0",
     "typescript": ">=4.5.5"
   },
-  "gitHead": "11bc6c45f1a4d2817213b76c040d233e84ee57bb"
+  "gitHead": "05d03febf3d05e7d52ba77c515e4b63f44708753"
 }
