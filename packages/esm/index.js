@@ -3,10 +3,21 @@ module.exports = {
     '@alex-taxiera/eslint-config-cjs',
   ],
   plugins: [
-    'modules-newline',
+    'import-newlines'
   ],
   rules: {
-    'modules-newline/import-declaration-newline': 'error',
-    'modules-newline/export-declaration-newline': 'error',
+    'object-curly-newline': ['error', {
+      multiline: true,
+      minProperties: 3,
+      consistent: true,
+    }],
+    'import-newlines/enforce': [
+      'error',
+      {
+        items: 1,
+        'max-len': 80,
+        semi: false
+      }
+    ]
   },
 }

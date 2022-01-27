@@ -3,6 +3,12 @@ module.exports = {
     'standard',
   ],
   rules: {
+    'camelcase': ['error', {
+      ignoreImports: true,
+      allow: ['^UNSAFE_'],
+      properties: 'never',
+      ignoreGlobals: true
+    }],
     'array-bracket-spacing': ['error', 'always'],
     'arrow-parens': 'error',
     'no-console': 'error',
