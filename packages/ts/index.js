@@ -49,6 +49,7 @@ module.exports = {
     '@typescript-eslint/brace-style': ['error', '1tbs', {
       allowSingleLine: true,
     }],
+    'comma-dangle': 'off',
     '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
     '@typescript-eslint/explicit-member-accessibility': ['error', {
       overrides: {
@@ -67,5 +68,14 @@ module.exports = {
       checksVoidReturn: false
     }],
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
+    '@typescript-eslint/strict-boolean-expressions': ['error', {
+      allowString: true,
+      allowNumber: false,
+      allowNullableObject: true,
+      allowNullableBoolean: true,
+      allowNullableString: false,
+      allowNullableNumber: false,
+      allowAny: true
+    }]
   },
 }
