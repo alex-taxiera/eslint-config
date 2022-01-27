@@ -22,21 +22,14 @@
     "access": "public"
   },
   "dependencies": {
-    "@alex-taxiera/eslint-config-cjs": "^1.0.4"
+    "@alex-taxiera/eslint-config-cjs": "^1.0.4",
+    "eslint-plugin-import-newlines": "^1.1.7"
   },
   "peerDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-plugin-import": ">=2.25.4",
-    "eslint-plugin-import-newlines": "^1.1.7",
-    "eslint-plugin-node": ">=11.1.0",
-    "eslint-plugin-promise": "^5.2.0"
+    "eslint": "^7.32.0"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-import-newlines": ">=1.1.7",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.2.0"
+    "eslint": "^7.32.0"
   },
   "gitHead": "05d03febf3d05e7d52ba77c515e4b63f44708753"
 }
