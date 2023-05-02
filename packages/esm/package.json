@@ -2,6 +2,9 @@
   "name": "@alex-taxiera/eslint-config-esm",
   "version": "1.1.1",
   "main": "index.js",
+  "scripts": {
+    "update:deps": "npx npm-check-updates -u"
+  }, 
   "description": "Custom ESLint config for ESM",
   "keywords": [
     "eslint",
@@ -23,13 +26,13 @@
   },
   "dependencies": {
     "@alex-taxiera/eslint-config-cjs": "^1.1.1",
-    "eslint-plugin-import-newlines": "^1.1.7"
+    "eslint-plugin-import-newlines": "^1.3.1"
   },
   "peerDependencies": {
     "eslint": "^7.32.0"
   },
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^8.39.0"
   },
   "gitHead": "05d03febf3d05e7d52ba77c515e4b63f44708753"
 }

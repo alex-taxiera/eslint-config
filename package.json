@@ -4,9 +4,11 @@
     "bootstrap": "lerna bootstrap --hoist",
     "uninstall": "lerna clean --yes && rm -rf ./node_modules",
     "reinstall": "npm run uninstall && npm i",
-    "postinstall": "npm run bootstrap"
+    "postinstall": "npm run bootstrap",
+    "update:deps": "npx npm-check-updates -u",
+    "update": "npm run update:deps && lerna run update:deps"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^6.6.1"
   }
 }
