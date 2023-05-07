@@ -1,6 +1,7 @@
 {
   "name": "eslint-config",
   "scripts": {
+    "test:linter": "lerna run lint",
     "bootstrap": "lerna bootstrap --hoist",
     "uninstall": "lerna clean --yes && rm -rf ./node_modules",
     "reinstall": "npm run uninstall && npm i",
@@ -9,6 +10,6 @@
     "update": "npm run update:deps && lerna run update:deps"
   },
   "devDependencies": {
-    "lerna": "^6.6.1"
+    "lerna": "^6.6.2"
   }
 }
