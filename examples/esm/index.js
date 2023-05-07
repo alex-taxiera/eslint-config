@@ -3,6 +3,8 @@ import { resolve } from 'path'
 import { readFile } from 'fs/promises'
 
 const hello = (input) => {
+  // WARN FOR NOW - NOT DEFAULT BEHAVIOR
+  /* eslint no-console: 1 */
   console.log(`Hello, ${input ?? 'World'}!`)
 }
 
