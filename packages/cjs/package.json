@@ -2,6 +2,9 @@
   "name": "@alex-taxiera/eslint-config-cjs",
   "version": "1.1.1",
   "main": "index.js",
+  "scripts": {
+    "update:deps": "npx npm-check-updates -u"
+  },
   "description": "Custom ESLint config for CJS",
   "keywords": [
     "eslint",
@@ -22,13 +25,13 @@
     "access": "public"
   },
   "dependencies": {
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.2.0"
+    "eslint-plugin-promise": "^6.1.1"
   },
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^8.40.0"
   },
   "peerDependencies": {
     "eslint": "^7.32.0"

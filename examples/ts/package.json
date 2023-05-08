@@ -1,0 +1,13 @@
+{
+  "name": "ts-config-example",
+  "scripts": {
+    "lint": "eslint index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "20.1.0",
+    "@alex-taxiera/eslint-config-ts": "workspace:*",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.40.0",
+    "typescript": "^5.0.4"
+  }
+}

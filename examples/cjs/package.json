@@ -1,0 +1,10 @@
+{
+  "name": "cjs-config-example",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "devDependencies": {
+    "@alex-taxiera/eslint-config-cjs": "workspace:*",
+    "eslint": "^8.40.0"
+  }
+}

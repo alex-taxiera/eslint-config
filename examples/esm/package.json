@@ -1,0 +1,10 @@
+{
+  "name": "esm-config-example",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "devDependencies": {
+    "@alex-taxiera/eslint-config-esm": "workspace:*",
+    "eslint": "^8.40.0"
+  }
+}
